@@ -11,6 +11,7 @@ public class redisTest {
         System.out.println("连接成功");
         System.out.println("服务正在运行" + jedis.ping());
         Set<String> set = jedis.keys("*");
+        System.out.println("提交一次");
         for (String keys : set) {
             System.out.println(keys);
         }
