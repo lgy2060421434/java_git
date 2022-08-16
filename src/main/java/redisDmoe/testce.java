@@ -1,7 +1,7 @@
 package redisDmoe;
 
 public class testce {
-    public static void test(){
+    public static void testCast(){
         System.out.println("hahha");
     }
 }
